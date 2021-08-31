@@ -1,0 +1,54 @@
+:root {
+    --navbar-height: 50px;
+    --footer-height: 50px;
+    --page-padding-x: 40px;
+    --product-card-height: 300px;
+    --product-card-width: 250px;
+    --category-card-size: 150px;
+
+    --btn-text-size: 12px;
+
+    --space-s: 10px;
+    --space-m: 25px;
+    --space-l: 40px;
+
+    --bg-color: #f5f4f4;
+    --btn-color: rgba(255, 255, 255, 0.8);
+    --btn-hover-color: rgb(245, 245, 245);
+
+    --box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+
+    @media (max-width: 510px) {
+        --category-card-size: 130px;
+        --product-card-height: 260px;
+        --product-card-width: 210px;
+
+        --space-s: 8px;
+        --space-m: 20px;
+        --space-l: 35px;
+    }
+
+    @media (max-width: 400px) {
+        --page-padding-x: 30px;
+    }
+
+    @media (max-width: 350px) {
+        --page-padding-x: 20px;
+    }
+
+    @media (min-width: 900px) {
+        --page-padding-x: 50px;
+    }
+
+    @media (min-width: 1200px) {
+        --page-padding-x: 60px;
+    }
+
+    @media (min-width: 1500px) {
+        --page-padding-x: 120px;
+    }
+
+    @media (min-width: 2000px) {
+        --page-padding-x: 150px;
+    }
+}

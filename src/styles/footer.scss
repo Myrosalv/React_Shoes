@@ -1,0 +1,25 @@
+.footer {
+    display: flex;
+    height: var(--footer-height);
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px var(--page-padding-x);
+    background-color: #eeeeee;
+
+    &__copyright {
+        font-size: 10px;
+    }
+
+    &__icons-referral {
+        font-size: 10px;
+
+        a {
+            color: black;
+            font-style: italic;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}
